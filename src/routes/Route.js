@@ -22,7 +22,6 @@ export default function RouteWrapper({
 
   const Layout = signed ? DefaultLayout : AuthLayout;
 
-  // eslint-disable-next-line react/jsx-props-no-spreading
   return (
     <Route
       {...rest}
